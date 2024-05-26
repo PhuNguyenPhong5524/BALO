@@ -1,0 +1,652 @@
+
+
+/* CSS cho màn hình nhỏ hơn 600px */
+/* @media screen and (max-width: 600px) {
+    body { */
+        /* Định nghĩa các kiểu CSS cho màn hình nhỏ hơn 600px ở đây */
+    /* }
+} */
+
+/* CSS cho màn hình lớn hơn hoặc bằng 600px */
+/* @media screen and (min-width: 600px) {
+    body { */
+        /* Định nghĩa các kiểu CSS cho màn hình lớn hơn hoặc bằng 600px ở đây */
+    /* }
+} */
+
+
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header */
+.header_thongbao{
+    display: flex;
+    background: #020202;
+    padding: 5px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+}
+.header_thongbao a{
+    padding: 2px;
+}
+.header_thongbao div {
+    padding: 2px;
+}
+/* menu */
+#mymenu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2000;
+    background: #f3a504;
+}
+.menu{
+    /* box-shadow: 0px 4px 8px #58555590,
+0px 0px 1px #635f5feb,
+1px 1px 1px #0000001f,
+0px -1px 1px #0000001f; */
+width: 100%;
+z-index: 1000;
+position: relative;
+height: 71px;
+transition: all 0.5s ease-out;
+
+}
+.menu>ul{
+    margin: 0px auto;
+    list-style:none;
+    /* background-color:#f3a504; */
+    text-align:left;
+
+    padding-top: 17px;
+
+}
+.menu>ul>li{
+    display:inline-block;
+}
+.menu>ul>li>a{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    line-height: 40px;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px ;
+    font-weight: 600;
+}
+.menu>ul>li:hover a ul{
+    color: rgba(245, 245, 245, 0.82);
+    background:			#b25428e1;
+    transition: 0.25s;
+    border-radius: 40px;
+}
+/* menu con */
+.menu ul li ul{
+    display: none;
+    position: absolute; 
+    background-color: #ffffff; 
+    margin-left: 10px;
+    width: 25%;
+    border-radius: 3px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 8px #58555590,
+0px 0px 1px #635f5feb,
+1px 1px 1px #0000001f,
+0px -1px 1px #0000001f;
+}
+
+.menu ul li:hover ul {
+    display: block; 
+
+}
+
+.menu ul li ul li {
+ 
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li ul li a {
+    margin-left: -20px;
+    line-height: 35px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    
+    
+}
+.menu ul li ul li:hover a{
+    color: #cf9d07;
+    
+}
+.tamgiac {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 52px;
+    left: 34%;
+    transform: rotate(45deg);
+    display: none;
+    box-shadow: 0px 4px 8px #58555590,
+0px 0px 1px #635f5feb,
+2px 1px 1px #0000001f,
+0px -1px 1px #0000001f;
+}
+
+.menu ul li:hover .tamgiac {
+    display: block; 
+}
+.tamgiac2 {
+    width: 9.5px;
+    height: 9.5px;
+    background: #fff;
+    position: absolute;
+    top: 52px;
+    left: 34%;
+    transform: rotate(45deg);
+    display: none;
+    z-index: 2003;
+}
+
+.menu ul li:hover .tamgiac2 {
+    display: block; 
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+.sticky + .content {
+    margin-bottom: 200px;
+}
+/* giỏ hàng */
+.giotreo{
+    z-index: 2000;
+    font-size: 22px;
+    cursor: pointer;
+
+  }
+   .cart-btn{
+    color: black;
+    
+
+  }
+  .soluong{
+    position: absolute;
+    background: #ff0000;
+    margin-left: -5px;
+    border: 1px solid rgba(96, 24, 24, 0.502);
+    font-size: 13px;
+    padding: -1px 18px -1px 10px ;
+    width: 16px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+   margin-top: -6px;
+   font-weight: 600;
+   
+  }
+/* ***********************Slider********************************** */
+/* *************************************************************** */
+
+.slider{
+    width: 100%;
+    position: relative;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    transition: all 0.5s ease-out;
+}
+.icon{
+    display: none;
+}
+.icon .icon1{
+    float: left;
+}
+.slider:hover .icon{
+    display: block;
+}
+.imgslider{
+width: 100%;
+height: 600px;
+}
+.textbtnslider{
+  text-align: center;
+  color: white;
+  background: 	#5f5f5fc6;
+  padding: 12px;
+  margin-top: -45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#icon1{
+position: absolute;
+left: 10px;
+top: 45%;
+background: rgba(128, 128, 128, 0.21);
+font-size: 30px;
+color: white;
+padding: 10px 15px 10px 15px;
+border: 1px solid gray;
+border-radius: 200px;
+}
+#icon2{
+position: absolute;
+right: 10px;
+top: 45%;
+background: rgba(128, 128, 128, 0.21);
+font-size: 30px;
+color: white;
+padding: 10px 15px 10px 15px;
+border: 1px solid gray;
+border-radius: 200px;
+}
+#icon1:hover{
+background: rgba(150, 149, 149, 0.621);
+color:rgba(0, 0, 0, 0.518);
+
+}
+#icon2:hover{
+background: rgba(150, 149, 149, 0.621);
+color: rgba(0, 0, 0, 0.518);
+}
+
+/* **********************The END Slider*************************** */
+
+
+/* section sản phẩm */
+.section_sp{
+    background: #fff;
+    margin: 100px;
+    border-radius: 10px;
+    transform: translateY(-55px);
+}
+
+.text_ssSP h1{
+    text-align: center;
+    z-index: 2001;
+}
+.text_ssSP hr{
+    border-bottom: 3px solid black;
+    width: 250px;
+    text-align: center;
+    
+}
+.box_tong_sp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 5px;
+    padding:20px;
+    margin-top: -15px;
+   
+}
+.box_tong_sp .box_sp {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 140px;
+    border-radius: 5px;
+    height: 325px;
+}
+.box_tong_sp .box_sp:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.box_tong_sp  .box_sp{
+    text-align: center;
+    
+}
+.box_sp .content{
+    margin: 5px;
+}
+.box_sp .content .ten{
+    font-weight: 600;
+    font-size: 15.5px;
+    color: black;
+}
+.box_sp .content .gia{
+    font-size: 18px;
+    font-weight: 500;
+    color: firebrick;
+}
+.box_img{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+.box_img img{
+    margin-top: 10px;
+    width: 70%;
+    height: auto;
+    transition: transform .4s ease-out;
+    background-size:cover ;
+    text-align: center;
+}
+.box_img:hover img{
+    transform:scale(1.5);
+    
+
+}
+.box_img{
+    position: relative;
+    overflow: hidden; 
+}
+.chitiet{
+    position: absolute;
+    background-color:#ffc107;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    bottom: -45px;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    display: flex;
+    height: 25px;
+    padding-top: 15px;
+    justify-content: center;
+
+
+
+}
+.chitiet div{
+    margin: 2px;
+    padding-top: 12px;
+    transform: translateY(-25px);
+ 
+}
+.chitiet .btn1:hover{
+    color: firebrick;
+}
+.chitiet .btn2:hover{
+    color: firebrick;
+}
+.chitiet .btn1{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #cf9d07;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+.chitiet .btn2{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid #cf9d07;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+.box_img:hover .chitiet{
+    bottom: 0;
+    opacity: 1;
+}
+/* Giỏ hàng index */
+#box_aside {
+    background: #929292ba;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2010;
+    position: fixed;
+}
+#box_aside .giohang_index{
+    width: 500px;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    background: #fff;
+    z-index: 2002;
+   position: fixed;
+ }
+#close{
+    font-size: 30px;
+  
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    background: rgba(237, 237, 237, 0.389);
+}
+footer div ul li{
+    margin-bottom: 10px;
+    margin-left: -22px;
+}
+.box_đk_ft{
+    display: flex;
+}
+.box_đk_ft input{
+    height: 30px;
+    border: 2px solid black ;
+    border-radius: 5px;
+}
+.box_đk_ft button{
+    height: 34px;
+    border: 1px solid black;
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.cartItem2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    padding-bottom: 5px;
+    border-bottom: 0.1px solid rgb(184, 184, 184);
+}
+.cloes_tt{
+    font-size: 15px;
+    
+}
+.content_Item{
+    width: 280px;
+}
+.content_Item div{
+    line-height: 20px;
+}
+.btn_tg_sl{
+    display: flex;
+
+}
+.btn_tg_sl input{
+    width: 15px;
+    text-align: center;
+    border: 0.05 solid rgb(213, 213, 213);
+}
+.btn_tg_sl button{
+ 
+    background: rgb(175, 175, 175);
+    color: #fff;
+
+}
+#xoaspgh{
+    cursor: pointer;
+}
+/* ************************Giỏ hàng css****************************** */
+.text{
+    background: rgb(234, 234, 234);
+    color: brown;
+    font-weight: 700;
+    border: 1px solid rgba(253, 253, 253, 0.144);
+    border-radius: 8px;
+    width: 11px;
+    padding: 2px 4px 2px 5px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    margin-top: -10px;
+    position: absolute;
+    transform: translateX(5px);
+    
+  }
+  .giohang  img{
+     width: 30%;
+     height: auto;
+     font-size: 15px;
+    transform: translateX(-40px);
+  
+  }
+  .giohang input{
+    width: 70px;
+    outline: none;
+    text-align: center;
+  }
+  .giohang tbody tr td .chu{
+    font-size: 20px;
+    font-weight: 600;
+    
+  }
+  /* ************************************** */
+
+  
+   /* ************************** */
+   .bocthanhtoan{
+    margin-top: 5px;
+    margin-bottom: 60px;
+    float: right;
+    margin-right: 88px;
+    background: white;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 40%;
+    height: 445px;
+  
+   }
+   .tt1{
+    text-align: center;
+    margin-top: -28px;
+    margin-bottom: 20px;
+    font-size: 15px;
+   }
+   .tt2{
+    background: whitesmoke;
+    padding: 30px;
+    width: 90%;
+   }
+   .tt3{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 22px;
+    color: white;
+    background: #f3a504;
+    padding: 1px;
+    cursor: pointer;
+   }
+   .tt3:hover{
+    background: rgba(205, 205, 205, 0.285);
+    transition: 0.8s;
+   }
+   .boctt4{
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.258);
+   }
+   .boctt5{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(135, 135, 135, 0.258);
+   }
+   .boctt6{
+    margin-top: 20px;
+    
+   }
+   .tt4{
+    margin-right: 106.5px;
+    margin-bottom: 20px;
+   }
+   .tt4 p{
+    margin-top: 4.5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+   }
+   .tt5{
+    margin-right: 91px;
+    margin-bottom: 20px;
+   }
+   .tt5 p{
+    padding-bottom: 6px;
+    margin-top: 6.5px;
+   }
+   .tt6{
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: red;
+    font-weight: 550;
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-top: 17px;
+   }
+  .tt6x{
+    margin-right: 100px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+   
+  }
+ 
+/* CSS cho điện thoại di động (màn hình nhỏ hơn 600px) */
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    .box_tong_sp .box_sp {
+        flex-basis: 100%;
+    }
+    .imgslider{
+        width: 100%;
+        height: 200px;
+    }
+    .section_sp{
+        background: #fff;
+        margin: 50px;
+        border-radius: 10px;
+        transform: translateY(-75px);
+    }
+    .text_ssSP h1{
+      
+        font-size: 14px;
+        width: 100%;
+    }
+    .text_ssSP hr{
+        border-bottom: 3px solid black;
+        width: 100px;
+        text-align: center;
+        
+    }
+}
+
+/* CSS cho máy tính bảng (màn hình từ 600px đến 1024px) */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .box_tong_sp .box_sp {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+/* CSS cho máy tính để bàn (màn hình lớn hơn hoặc bằng 1024px) */
+@media screen and (min-width: 1024px) {
+    .box_tong_sp .box_sp {
+        flex-basis: calc(20% - 20px);
+    }
+}

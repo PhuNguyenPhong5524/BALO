@@ -1,0 +1,232 @@
+{
+  "danhMuc": [
+    {
+      "idDM": 1,
+      "tenLoai": "balo",
+      "id": "232a"
+    },
+    {
+      "idDM": 2,
+      "tenLoai": "Bình, ly giữ nhiệt",
+      "id": "a087"
+    },
+    {
+      "idDM": 3,
+      "tenLoai": "Túi xách",
+      "id": "340c"
+    },
+    {
+      "idDM": 4,
+      "tenLoai": "Vali",
+      "id": "238b"
+    },
+    {
+      "idDM": 5,
+      "tenLoai": "Ví nam, ví nữ",
+      "id": "ddb0"
+    }
+  ],
+  "sanPham": [
+    {
+      "id": "0",
+      "hinh": "img/balo1.webp",
+      "hinhct": "https://product.hstatic.net/200000725249/product/schel-city-eco-mid-volume-backpack-s-blackcopen-blue-13845-21675242225_067a73eb422845aa864b81511dfd04a7_master.jpg",
+      "tenSP": "phong phú",
+      "Gia": "2.449",
+      "moTa": "Đơn giản nhưng không đơn điệu - City Mid Volume giữ mọi thứ ở mức tối giản, hạn chế tất cả sự rườm rà, hướng đến sự thanh lịch, tinh tế trong từng chi tiết nhỏ nhất. Tương thích với dòng MacBook/Laptop kích thước 14 inch. Dây đeo nam châm gắn chặt với khoá kim loại. Chất liệu vải 100% Fabric tái chế thân thiện với môi trường. Dây đeo vai mỏng, điều chỉnh tuỳ ý",
+      "iddm": 1
+    },
+    {
+      "id": "1",
+      "hinh": "img/balo2.webp",
+      "hinhct": "https://product.hstatic.net/200000725249/product/o-herschel-orion-retreat-small-13-backpack-s-rosette-13853-11678412458_63e359fe726149aeac754cb3250642f1_master.jpg",
+      "tenSP": "Herschel Orion Retreat Small",
+      "Gia": "5.599",
+      "moTa": "Thiết kế theo hơi hướng cổ điển, pha nét trẻ trung cùng với sự đa dạng về màu sắc. Orion Retreat chắc chắn là sự lựa chọn tuyệt vời cho những hoạt động hàng ngày hay cuộc phiêu lưu ngắn hạn của bạn.Tương thích với MacBook/Laptop với kích thước lên tới 13 inch có đệm và lót lông cừu ngăn laptop. Dây gài từ tính đóng bằng kẹp ghim kim loại. Dây đai cố định phía trước chắc chắn",
+      "iddm": 1
+    },
+    {
+      "id": "2",
+      "hinh": "img/balo3.webp",
+      "hinhct": "https://product.hstatic.net/200000725249/product/o-herschel-retreat-small-13-backpack-s-lavender-gray-13960-21680255566_86062d731e2447dda04524a3f93e3e7e_master.jpg",
+      "tenSP": "Herschel Retreat Small",
+      "Gia": "3.299",
+      "moTa": " Thiết kế theo hơi hướng cổ điển, pha nét trẻ trung cùng với sự đa dạng về màu sắc. Retreat Standard chắc chắn là sự lựa chọn tuyệt vời cho những hoạt động hàng ngày hay cuộc phiêu lưu ngắn hạn của bạn. Tương thích với MacBook/Laptop với kích thước lên tới 13 inch Có đệm và lót lông cừu ngăn laptop. Dây gài từ tính đóng bằng kẹp ghim kim loại. Dây đai cố định phía trước chắc chắn",
+      "iddm": 1
+    },
+    {
+      "id": "6",
+      "hinh": "img/balo7.jpg",
+      "hinhct": "",
+      "tenSP": "Reeyee RY201",
+      "Gia": "1.200",
+      "moTa": "ản phẩm chất lượng tốt bắt đầu từ chất liệu tạo ra sản phẩm, sản phẩm được sử dụng vải Potyester có khả năng chống thấm nước rất tốt. Hơn nữa, chất liệu này còn giúp chiếc balo của bạn bền màu theo thời gian nhờ tính chất chống tia UV của nó",
+      "iddm": 1
+    },
+    {
+      "id": "7",
+      "hinh": "img/balo8.webp",
+      "hinhct": "",
+      "tenSP": "Solo Active Universal 10.2' STM751",
+      "Gia": "1.756",
+      "moTa": "Từ 100% vải Polyester cao cấp chống bám bụi, hỗ trợ chống thấm khi di chuyển dưới mưa. Sản phẩm có một ngăn chính chứa tập sách, có thể đựng vừa ipad, tablet tiện lợi. Hai ngăn phụ phía trước có thể để các đồ dùng cần thao tác nhanh như chìa khóa, thẻ xe. Thiết kế một quai gọn nhẹ, có thể đổi bên linh hoạt nhờ móc khóa bấm tiện lợi",
+      "iddm": 1
+    },
+    {
+      "id": "8",
+      "hinh": "img/balo9.jpg",
+      "hinhct": "",
+      "tenSP": "Reeyee RY2009 10",
+      "Gia": "3.250",
+      "moTa": "Sản phẩm chất lượng tốt bắt đầu từ chất liệu tạo ra sản phẩm, sản phẩm được sử dụng vải Potyester có khả năng chống thấm nước rất tốt. Hơn nữa, chất liệu này còn giúp chiếc balo của bạn bền màu theo thời gian nhờ tính chất chống tia UV của nó.",
+      "iddm": 1
+    },
+    {
+      "id": "9",
+      "hinh": "img/balo10.jpg",
+      "hinhct": "",
+      "tenSP": "Reeyee RY208",
+      "Gia": "2.750",
+      "moTa": "Điểm đặc biệt của mẫu balo này là được thiết kế thêm cổng sạc USB dùng để dự phòng những khi bạn phải sử dụng điện thoại hay một số thiết bị điện tử khác khi đang đi ngoài đường. Thật đơn giản và tiện lợi, vừa đeo balo vừa dùng điện thoại, xóa tan nỗi lo điện thoại hết pin.",
+      "iddm": 1
+    },
+    {
+      "id": "10",
+      "hinh": "img/balo11.webp",
+      "hinhct": "",
+      "tenSP": "Reeyee RY103",
+      "Gia": "1.320",
+      "moTa": "Sản phẩm chất lượng tốt bắt đầu từ chất liệu tạo ra sản phẩm, và balo Reeyee RY103 cũng vậy. Với chất liệu vải Polyester sáng - đẹp - bền, balo của bạn có khả năng trượt nước rất tốt và hiệu quả, giúp bạn hoàn toàn yên tâm mang theo nhiều đồ dùng cần thiết ra ngoài trong những ngày thời tiết thất thường. ",
+      "iddm": 1
+    },
+    {
+      "id": "11",
+      "hinh": "img/balo12.webp",
+      "hinhct": "",
+      "tenSP": "Reeyee RY111",
+      "Gia": "1.320",
+      "moTa": "Balo laptop được chia làm nhiều ngăn tiện ích giúp bạn cất đồ một cách khoa học  gồm 1 ngăn chính rộng lớn tích hợp ngăn chống sốc vừa laptop 15.6 và các ngăn phụ tiện lợi. Ngăn phụ nhỏ ở mắt trước balo với khóa zip ngang nhỏ gọn, bạn có thể dùng để đựng dây sạc điện thoại, tai nghe..các vật dụng cá nhân nhỏ khác. Ngăn phụ với khóa zip dọc ở mặt trước balo giúp bạn đựng được đồ đạc nhỏ gọn, dễ dàng cho thao tác lấy ta, cất vào như chìa khóa, khăn giấy…",
+      "iddm": 1
+    },
+    {
+      "id": "12",
+      "hinh": "img/balo13.jpg",
+      "hinhct": "",
+      "tenSP": "Solo GRV705-4",
+      "Gia": "1.100",
+      "moTa": "Sản phẩm sử dụng chất liệu vải Polyester bền bỉ, có khả năng chống thấm nhẹ, ngăn mưa phùn nên rất thích hợp sử dụng ngoài trời, trong nhiều điều kiện thời tiết khác nhau. Chất vải chống bám bụi đồng thời có khả năng giúp giữ vệ sinh sản phẩm sạch sẽ, tránh phai màu hay sờn rách trong suốt quá trình sử dụng balo.",
+      "iddm": 1
+    },
+    {
+      "id": "16",
+      "hinh": "img/binh1.webp",
+      "hinhct": "",
+      "tenSP": "Hydro Flask All Around Tumble",
+      "Gia": "1.249",
+      "moTa": "Chưa có mô tả cho sản phẩm này!",
+      "iddm": 2
+    },
+    {
+      "id": "17",
+      "hinh": "img/binh2.webp",
+      "hinhct": "",
+      "tenSP": "Hydro Flask All Around Tumbler",
+      "Gia": "2.100",
+      "moTa": "Chưa có mô tả cho sản phẩm này!",
+      "iddm": 2
+    },
+    {
+      "id": "18",
+      "hinh": "img/binh3.webp",
+      "hinhct": "",
+      "tenSP": "Hydro Flask Lightweight Standard Flex Cap",
+      "Gia": "1.399",
+      "moTa": "Chưa có mô tả cho sản phẩm này!",
+      "iddm": 2
+    },
+    {
+      "id": "19",
+      "hinh": "img/binh4.webp",
+      "hinhct": "",
+      "tenSP": "Hydro Flask Lightweight Wide Flex Cap",
+      "Gia": "1.499",
+      "moTa": "Chưa có mô tả cho sản phẩm này!",
+      "iddm": 2
+    },
+    {
+      "id": "20",
+      "hinh": "img/binh5.webp",
+      "hinhct": "",
+      "tenSP": "Hydro Flask Standard Flex Cap",
+      "Gia": "1.090",
+      "moTa": "Chưa có mô tả cho sản phẩm này!",
+      "iddm": 2
+    },
+    {
+      "id": "21",
+      "hinh": "img/tui1.webp",
+      "hinhct": "",
+      "tenSP": "Herschel Heritage Duffle Field Trip",
+      "Gia": "4.199",
+      "moTa": "Thiết kế độc đáo, tiện dụng vừa thích hợp với trang phục năng động, vừa có thể phối cùng những bộ cánh thời trang. Herschel Heritage Duffle là lựa chọn hoàn hảo cho những buổi tập gym hay những chuyến du lịch đầy cảm hứng.Lớp lót mềm bên trong giảm sốc cho các đồ vật dễ vỡ. Dây đeo êm ái có thể tháo rời. Tay cầm gia công cố định đem lại cảm giác thoải. Khả năng chứa: laptop, iPad, ví, sổ tay, điện thoại, giày dép và các vật dụng du lịch khác. Độc quyền tại Mia.vn ",
+      "iddm": 3
+    },
+    {
+      "id": "22",
+      "hinh": "img/tui2.webp",
+      "hinhct": "",
+      "tenSP": "Herschel Heritage Duffle Standard",
+      "Gia": "3.799",
+      "moTa": " Thiết kế độc đáo, tiện dụng vừa thích hợp với trang phục năng động, vừa có thể phối cùng những bộ cánh thời trang. Herschel Heritage Duffle là lựa chọn hoàn hảo cho những buổi tập gym hay những chuyến du lịch đầy cảm hứng. Lớp lót mềm bên trong giảm sốc cho các đồ vật dễ vỡ. Dây đeo êm ái có thể tháo rời. Tay cầm gia công cố định đem lại cảm giác thoải. Khả năng chứa: laptop, iPad, ví, sổ tay, điện thoại, giày dép và các vật dụng du lịch khác. Độc quyền tại Mia.vn ",
+      "iddm": 3
+    },
+    {
+      "id": "23",
+      "hinh": "img/tui3.jpg",
+      "hinhct": "",
+      "tenSP": "Herschel Novel Duffle",
+      "Gia": "3.199",
+      "moTa": " Thiết kế độc đáo, tiện dụng vừa thích hợp với trang phục năng động, vừa có thể phối cùng những bộ cánh thời trang. Novel là lựa chọn hoàn hảo cho những buổi tập gym hay những chuyến du lịch đầy cảm hứng. Lớp lót mềm bên trong giảm sốc cho các đồ vật dễ vỡ. Ngăn chính với khoá kéo chống thấm nước. Dây đeo êm ái có thể tháo rời. Tây cầm gia công cố định đem lại cảm giác thoải. Có ngăn đựng giày/đồ dơ riêng.",
+      "iddm": 3
+    },
+    {
+      "id": "24",
+      "tenSP": "Túi xách hãng cao cấp Herschel",
+      "hinh": "img/tui4.jpg",
+      "Gia": "3.453",
+      "iddm": "3"
+    },
+    {
+      "tenSP": "Túi xách quân độiiiii",
+      "hinh": "img/balo1.webp",
+      "Gia": "1.555",
+      "iddm": "2",
+      "id": "25"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Nguyễn Phong Phú",
+      "email": "phu6257643@gmail.com",
+      "phone": "0837635394",
+      "password": "05052004",
+      "Role": "1"
+    },
+    {
+      "id": "1",
+      "name": "Nguyễn Thanh Phú",
+      "email": "phu23@gmail.com",
+      "phone": "0837635394",
+      "password": "0909090909",
+      "Role": "2"
+    },
+    {
+      "name": "Nguyễn Phú Quý6565",
+      "email": "quy123@gmail.com",
+      "phone": "0837635394",
+      "Role": "2",
+      "id": "2"
+    }
+  ]
+}

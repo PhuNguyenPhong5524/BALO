@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/chitetsp.css">
+    <script src="https://kit.fontawesome.com/bcd15b30db.js" crossorigin="anonymous"></script>
+    <style>
+        .text_gh_index{
+            display: flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+        }
+        #cartItem{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 5px;
+        }
+        #box_ic_vc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #icon_vc{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <aside>
+        <div id="box_aside" style="display: none;">
+            <div class="giohang_index">
+                    <div >
+                        <div class="text_gh_index" style="margin: 5px;">
+                            <div><h2>Giỏ hàng</h2></div>
+                            <div><i class="fa-solid fa-xmark" onclick="hide()" id="close"></i></div>
+                        </div>
+                        <div id="box_ic_vc" style="margin-left: 25px;">
+                            
+                        </div>
+                        <script src="js/tanggiam.js"></script>
+                      
+                    </div><hr>
+                  <div class="box_hiensp" style="overflow: auto; height: 430px;">
+                    <div id="hiensp" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                        <!-- Nội dung của bạn ở đây -->
+                    </div>
+                </div>
+
+                
+                    <div id="box_tongtien" style="display: none;">
+                           <div class="box_tt" style="margin-top: 10px;">
+                            <div style="margin-left: 10px;font-size: 15px; font-weight: 600;">TỔNG TIỀN:</div>
+                            <div id="tt" style="margin-right: 12px;font-size: 18px; font-weight: 600;color: red;"></div>
+                           </div>
+                           <div class="btn_tt">
+                            <button>THANH TOÁN</button>
+                           </div>
+                           <div class="box_ct">
+                            <div><a href="giohang.html">Xem giỏ hàng</a></div>
+                            <div><a href="#">Khuyến mãi dành cho bạn</a></div>
+                           </div>
+                    </div>
+            </div>
+        </div>
+    </aside>
+    <div class="wrapper">
+        <header>
+            <div class="header_thongbao">
+                  <div>
+                    <a>Hotline: 1800.1389 (8-22h, MIỄN PHÍ)</a>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-bell"></i> Thông báo cửa hàng
+                  </div>
+            </div>
+            <div id="mymenu">
+                <div class="logo">
+                     <a href="index.html"><img src="img/LOGO.png" alt="" width="180" height="50 "></a>
+                </div>
+                <div>
+                    <nav >
+                        <div class="menu" >
+                            <ul>
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="#">Danh mục</a>
+                                    <div class="tamgiac"></div>
+                                    <div class="tamgiac2"></div>
+                                    <ul id="danhmuc">
+                                                
+                                    </ul>
+                                </li>
+                                <li><a href="#">Hàng xả</a></li>
+                                <li><a href="#">Xã tết online</a></li>
+                                <li><a href="#">Tin tức</a></li>
+                        
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <div class="giotreo" id="count" >
+                        <a style="margin-right: 10px;"> <i class="fa-solid fa-magnifying-glass" ></i></a>
+                        <a><i class="fa-solid fa-bag-shopping" onclick="show()" id="cart-btn"></i></a>
+                        <a id="sl" class="soluong" style="text-decoration: none;" >0</a>
+                        <a href="login.html" style="margin-left: 20px;"><i class="fa-regular fa-user"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+        </header>
+       
+        <script src="./js/menutreo.js"></script>
+        <div  class="container"> 
+            <section class="product">
+                <div id="ctsp" class="container1">
+                    
+    
+                </div>
+                <script src="js/anhct.js"></script>
+            </section>
+        
+            
+        
+        
+        </div>
+        <footer>
+            <div style="width: 25%; margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+            <h3>Về BALOCAOCAP.com</h3>
+            <p>Thành lập từ 2008, sau đó sáp nhập vào MIA.vn vào 2021.</p><br>
+            <p>Hiện tại MIA.vn là chuỗi bán lẻ hành lý với hơn 25+ cửa hàng. MIA.vn còn được biết đến là thương hiệu bán VALI được yêu thích nhất tại thành phố Hồ Chí Minh.</p>
+            <div style="display: flex;">
+                <div style="margin-right: 10px;"><i class="fa-brands fa-facebook"></i></div>
+                <div style="margin-right: 10px;"><i class="fa-brands fa-tiktok"></i></div>
+                <div style="margin-right: 10px;"><i class="fa-brands fa-youtube"></i></div>
+            </div>
+            </div>
+            <div style="width: 25%;margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+                <h3>Thông tin liên hệ</h3>
+                <p>Địa chỉ: Xem hệ thống 16 siêu thị</p>
+                <p>Điện thoại: 1800.6198</p>
+                <p>Email: cskh@tga.com.vn</p>
+
+            </div>
+            <div style="width: 25%;margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+                <h3>Chính sách bán hàng</h3>
+                <ul>
+                    <li>Chính sách bảo hành</li>
+                    <li> Chính sách bảo mật</li>
+                    <li> Chính sách đổi trả</li>
+                    <li> Chính sách khách hàng thân thiết</li>
+                    <li> Chính sách vận chuyển</li>
+                    <li> Phương thức thanh toán</li>
+                    <li>Tuyển dụng</li>
+                </ul>
+                
+            </div>
+            <div style="width: 25%;margin: 30px;">
+                <h3>Đăng ký nhận tin</h3>
+                <p>Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin giảm giá khác.</p>
+                <div class="box_đk_ft">
+                    <div><input type="text" placeholder="Nhập email của bạn"></div>
+                    <div><button>Đăng ký</button></div>
+                </div>
+            </div>
+     </footer>
+      
+    </div>
+
+    <script src="js/ctsp.js"></script>
+    <script src="js/sanpham.js"></script>
+
+</body>
+</html>
+        

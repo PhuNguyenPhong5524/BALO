@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/bcd15b30db.js" crossorigin="anonymous"></script>
+    <style>
+        .text_gh_index{
+            display: flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+        }
+        #box_ic_vc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #icon_vc{
+            display: flex;
+            align-items: center;
+        }
+         .box_tt{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        .btn_tt{
+            text-align: center;
+            margin: 20px;
+        
+        }
+        .btn_tt button{
+            width: 100%;
+            height: 40px
+        }
+        .box_ct{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        .giohang{
+            width: 80%;
+            margin:  auto;
+            text-align: center;
+            border: 1px solid rgba(128, 128, 128, 0.249);
+            background: rgb(255, 255, 255);
+            padding: 5px;
+            padding-top: 4%;
+
+        }
+        .giohangboderbottom{
+            border-bottom: 1px solid gray;
+            
+        }
+        .giohang h2{
+            margin-bottom: 20px;
+            padding-bottom: 30px;
+        }
+            
+        .giohang table{
+            width: 100%;
+            padding-bottom: 20px;
+            transform: translateY(-20px); 
+        }
+
+        table thead tr th{
+            padding-top: 10px;
+        }
+        .giohang table tr td{
+            border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+            /* border-top: 1px solid rgba(128, 128, 128, 0.432); */
+            padding: 10px;
+            text-align: center;
+            padding-left: 30px;
+            
+        }
+        .giohang table tr td img{
+            width: 100px;
+            height: 100px;
+            padding-left: 10px;
+        }
+        .giohang table thead tr th{
+            padding-left: 50px;
+            font-size: 22px;
+            font-weight: 600;
+            padding-bottom: 15px;
+            color: black;
+        }
+
+        .giohang table thead tr th:first-child{
+            text-align: left;
+        }
+        .chugiohang{
+            background: rgba(209, 205, 205, 0.662);
+            width: 100%;
+            height: 100px;
+            margin-top: 4%;
+            text-align: center;
+        }
+        .chugiohang ul li{
+            display: inline-block;
+            margin-top: 2.5%;
+        }
+        .chugiohang ul li a{
+            margin: 25px;
+            font-size: 20px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #textgiohang a{
+            font-weight: 500;
+            color: brown;
+            border-bottom: 4px solid brown;
+            padding-bottom: 33px;
+        }
+        .fa-trash-can{
+            cursor: pointer;
+        }
+        .fa-trash-can:hover{
+            color: red;
+        }
+        .xoa{
+            color: rgb(144, 144, 144);
+            font-size: 20px;
+        }
+        .xoa:hover{
+            cursor: pointer;
+            color: brown;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <aside>
+        <div id="box_aside" style="display: none;">
+            <div class="giohang_index">
+                    <div >
+                        <div class="text_gh_index" style="margin: 5px;">
+                            <div><h2>Giỏ hàng</h2></div>
+                            <div><i class="fa-solid fa-xmark" onclick="hide()" id="close"></i></div>
+                        </div>
+                        <div id="box_ic_vc" style="margin-left: 25px;">
+                            
+                        </div>
+                        <script src="js/tanggiam.js"></script>
+                      
+                    </div><hr>
+                  <div class="box_hiensp" style="overflow: auto; height: 430px;">
+                    <div id="hiensp" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                        
+                    </div>
+                </div>
+
+                
+                    <div id="box_tongtien" style="display: none;">
+                           <div class="box_tt" style="margin-top: 10px;">
+                            <div style="margin-left: 10px;font-size: 15px; font-weight: 600;">TỔNG TIỀN:</div>
+                            <div id="tt" style="margin-right: 12px;font-size: 18px; font-weight: 600;color: red;"></div>
+                           </div>
+                           <div class="btn_tt">
+                            <button>THANH TOÁN</button>
+                           </div>
+                           <div class="box_ct">
+                            <div><a href="giohang.html">Xem giỏ hàng</a></div>
+                            <div><a href="#">Khuyến mãi dành cho bạn</a></div>
+                           </div>
+                    </div>
+            </div>
+        </div>
+    </aside>
+    <div class="wrapper">
+        <header>
+            <div class="header_thongbao">
+                  <div>
+                    <a>Hotline: 1800.1389 (8-22h, MIỄN PHÍ)</a>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-bell"></i> Thông báo cửa hàng
+                  </div>
+            </div>
+            <div id="mymenu">
+                <div class="logo">
+                     <a href="index.html"><img src="img/LOGO.png" alt="" width="180" height="50 "></a>
+                </div>
+                <div>
+                    <nav >
+                        <div class="menu" >
+                            <ul>
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="#">Balo</a></li>
+                                <li><a href="#">Túi xách</a></li>
+                                <li><a href="#">Bình, ly giữ nhiệt</a></li>
+                                <li><a href="#">Ví nam, ví nữ</a></li>
+                                <li><a href="#">Vali</a></li>
+                                <li><a href="#">Tin tức</a></li>
+                        
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <div class="giotreo" id="count" >
+                        <a><i class="fa-solid fa-magnifying-glass" ></i></a>
+                        <a><i class="fa-solid fa-bag-shopping" onclick="show()" id="cart-btn"></i></a>
+                        <a id="sl" class="soluong" style="text-decoration: none;" >0</a>
+                    </div>
+                </div>
+               
+            </div>
+        </header>
+       
+        <script src="./js/menutreo.js"></script>
+        <main>
+            
+            <h2 style="font-size: 30px;margin-left: 80px;margin-top: 90px;"><i class="fa-solid fa-caret-right"></i> Giỏ hàng</h2>
+            <div class="giohang" >
+                <form action="">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="padding-left:  18%;">Sản phẩm</th>
+                                <th style="padding-left: 8px;">Giá</th>
+                                <th style="padding-left: 10px;">Số lượng</th>
+                                <th style="padding-left: 1px;">Chọn</th>
+                            </tr>
+                        </thead>
+                        <hr style="position: absolute;transform: translateY(200px);">
+                        <tbody id="cart">
+                            
+                            
+                        
+                            
+                        </tbody>
+                        <tfoot id="tt">
+                            
+                        </tfoot>
+                        
+                    </table>
+                </form> 
+            </div>
+            <div class="bocthanhtoan">
+            <div class="tt1"><h1>Kiểm tra thông tin</h1></div>
+            <div class="tt2">
+                <div class="boctt5" style="display: flex;">
+                    <div class="tt5" style="font-size: 18px;"><h3>Giao hàng</h3></div>
+                    <div class="tt5" >
+                        <p>Giao hàng miễn phí</p>
+                        <p>Tùy chọn giao hàng sẽ được cập <br>
+                        nhật trong quá trình thanh toán.</p>
+                        <p>Tính phí giao hàng</p>
+                    </div>
+                </div>
+                <div class="boctt6" style="display: flex;">
+                    <div class="tt6x" style="font-size: 18px;"><h3>Tổng tiền</h3></div>
+
+                    <div class="tt6" id="tong">0</div>
+                </div>
+            </div>
+            
+            <div class="tt3"><h2>Xác nhận thanh toán</h2></div>
+
+            </div>
+         </main>
+         <footer>
+           
+                <div style="width: 25%; margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+                <h3>Về BALOCAOCAP.com</h3>
+                <p>Thành lập từ 2008, sau đó sáp nhập vào MIA.vn vào 2021.</p><br>
+                <p>Hiện tại MIA.vn là chuỗi bán lẻ hành lý với hơn 25+ cửa hàng. MIA.vn còn được biết đến là thương hiệu bán VALI được yêu thích nhất tại thành phố Hồ Chí Minh.</p>
+                <div style="display: flex;">
+                    <div style="margin-right: 10px;"><i class="fa-brands fa-facebook"></i></div>
+                    <div style="margin-right: 10px;"><i class="fa-brands fa-tiktok"></i></div>
+                    <div style="margin-right: 10px;"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+                </div>
+                <div style="width: 25%;margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+                    <h3>Thông tin liên hệ</h3>
+                    <p>Địa chỉ: Xem hệ thống 16 siêu thị</p>
+                    <p>Điện thoại: 1800.6198</p>
+                    <p>Email: cskh@tga.com.vn</p>
+
+                </div>
+                <div style="width: 25%;margin: 30px;border-right: 1px solid rgba(143, 143, 143, 0.389);">
+                    <h3>Chính sách bán hàng</h3>
+                    <ul>
+                        <li>Chính sách bảo hành</li>
+                        <li> Chính sách bảo mật</li>
+                        <li> Chính sách đổi trả</li>
+                        <li> Chính sách khách hàng thân thiết</li>
+                        <li> Chính sách vận chuyển</li>
+                        <li> Phương thức thanh toán</li>
+                        <li>Tuyển dụng</li>
+                    </ul>
+                    
+                </div>
+                <div style="width: 25%;margin: 30px;">
+                    <h3>Đăng ký nhận tin</h3>
+                    <p>Để cập nhật những sản phẩm mới, nhận thông tin ưu đãi đặc biệt và thông tin giảm giá khác.</p>
+                    <div class="box_đk_ft">
+                        <div><input type="text" placeholder="Nhập email của bạn"></div>
+                        <div><button>Đăng ký</button></div>
+                    </div>
+                </div>
+         </footer>
+      
+    </div>
+
+    <script src="js/sanpham.js"></script>
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
